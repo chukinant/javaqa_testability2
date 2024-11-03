@@ -7,9 +7,9 @@ public class Main {
         // new object of BmiService class
         BmiService bmi = new BmiService();
         // calling "calculate" method of bmi object
-        double myBmi = bmi.calculate(bodyMass, height);
+        int myBmi = bmi.calculate(bodyMass, height);
         System.out.println();
         // printing result in console with type conversion from double to int
-        System.out.println("Calculated body mass index is: " + (int) myBmi);
+        System.out.println("Calculated body mass index is: " + myBmi);
     }
 }
